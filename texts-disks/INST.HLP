@@ -1,0 +1,24 @@
+The installing routines are straightforward: all the necessary instructions
+are presented on the screen, as required. The DOS program XCOPY must be in
+the path. Enter may be pressed to end the installation during disk
+operations: Ctrl-C ends the installation when input is required.
+   The routines automatically overwrite existing files with the same names.
+This warning will be repeated later.
+	It was not possible to make the presentation on the screen both
+elegant and uncluttered, and to retain the trapping of errors. Consequently,
+the routines do not stop if the destination disk becomes full: nor is any
+error message presented. No harm other than wasted time will result.
+	Before installing each set of files and after each file is installed,
+the number of bytes remaining on the disk is shown (approximately, especially
+if disk compression is used). For a complete installation, 11.6 megabytes of
+hard disk space are required: it is the user's responsibility to ensure that
+this space is available. The user may install 1) the chapters of the book (1
+megabyte), 2) the programs (437k), 3) the texts (5.6 megabytes), 4) the
+ancillary files (3.5 megabytes), or 5) the miscellaneous files (651k) or any
+combination of those five categories.  See Appendix 3.  In addition, all
+files may be uncompressed individually, by using the program PKUNZIP
+(licensed from PKWARE). This program is on the root directory of disk 1, and
+is copied to drive c: in the first stages of installing. The command is
+followed by the drive, path, and filename and the drive to which the file is
+to be written:  PKUNZIP a:\book\chap-2 c:
+	Press Enter to continue, or Ctrl-C to exit.

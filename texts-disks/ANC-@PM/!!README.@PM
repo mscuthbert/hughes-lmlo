@@ -1,0 +1,6 @@
+This directory contains 65 files, including this one.
+
+The names of the zipped ancillary files are the same as those of the
+unzipped files with # prefixed or -@ appended. When these extra
+characters cause the filename to be too long, it is truncated, but its
+relation to the original filename always remains clear.

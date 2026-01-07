@@ -1,0 +1,62 @@
+29 June 1994
+
+----------------------------------------------------------------------
+ANDREW HUGHES
+Late Medieval Liturgical Offices
+Resources for Electronic Research - Texts
+----------------------------------------------------------------------
+
+This README file contains information on the following:
+
+	1 Installation
+	2 Electronic caveats
+	3 Corrections and revisions
+
+----------------------------------------------------------------------
+
+INSTALLATION
+Complete installation (all the data, programs, etc.) requires approximately
+11.4MB of free disk space. The installation routine quits when the available
+space is less than 10k. For instructions on installing the electronic files,
+see page 86 of the book, where sizes of individual parts of the data are given.
+For the sizes of (uncompressed) individual files see CHECK.LST on this disk.
+
+If you are installing from drive b: add the letter b after a space at the
+end of the command line, thus:
+
+    b:inst-lmo b
+
+Similarly, if you are concording from drive b: type
+
+    b:concord <filename> <word> b
+
+ELECTRONIC CAVEATS
+Users even slightly familar with computers will recognize that software
+is seldom definitive. The number of possible ways of using even relatively
+simple programs, like KLIC, is inordinately large (even discounting
+unforeseeable, imprudent, or reckless combinations and permutations) and
+quite impossible to take into consideration or to test rigorously.
+
+The software provided free with this book is tailormade for the repertory.
+Like all software, it will certainly have bugs. I am of course anxious to
+learn of defects and to hear of possible improvements. First, however,
+users should make sure they have carefully read all the instructions and
+that they fully understand the structure of the data. I cannot spend
+unreasonable amounts of time attempting to diagnose bugs. If users cannot
+achieve a particular end easily with the software provided, they may find
+it useful to explore commercial programs to carry out the task required: a
+guide to some available programs can be found in "Exploring the data", pp.
+70-82 of the book.
+
+CORRECTIONS AND REVISIONS
+EXTRACT: The parameter /c=exact as described on pages 89 and 90 is
+incorrect. It should be /xc=exact. (My preferred solution - to make the
+program accept the incorrect parameter - proved impossible. Now, when given
+/c=exact, the program exits with an appropriate message, to allow the
+user to enter the correct command.)
+
+The impending release of the complementary volume will allow any
+necessary updating of the programs and the instructions for using them,
+as well as for the inclusion of newly found data.
+
+----------------------------------------------------------------------

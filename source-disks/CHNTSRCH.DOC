@@ -1,0 +1,61 @@
+               CHNTSRCH: Undocumented features
+  
+  A few features are not documented in LMLO: Sources & Chants. Implemented recently, these
+  features have not been used to the same extent and thus have not been subjected to
+  extensive testing.
+  
+  While running, the program displays on screen three options with which the user may
+  interrupt the program:
+     if an x is pressed, the program ends (eXits) immediately;
+     if a w is pressed, the program will Write the current data and summaries and end;
+     if a b is pressed the display of these options will be replaced by a current breakdown of
+       the summaries and the program will continue. The b may be pressed repeatedly. The x
+       or w are still valid.
+  /sb   using /sb on the command line causes this breakdown to be displayed and updated
+          continuously.
+  
+  The program may also be interrupted as usual with Ctrl-C or Ctrl-Break.
+  
+  The x, w, and b commands that can be used to interrupt the program will be obvious to the
+  user through the display on the screen. Unless the user reads this document, the command
+  line parameter /sb and the other parameters described below will remain unknown.
+  
+  The first of these remaining features was designed to allow users to search for text without
+  the undesirable consequences outlined in LMLO: Source & Chants, p. 208 under Output
+  including letters. Designed to find matches within chantwords, the search is in fact much
+  more flexible, looking at every element   "word"   delimited by spaces in every line of the
+  data, limited only when other parameters such as /xm or /xs are in the command. Here are
+  the details.
+  /t this parameter allows the user to search for any string(s) in any line: the strings are
+       specified in the /f parameter, using double delimiters, thus /f=":string1:string2:".
+       Matches occur when ALL strings are found within a (chant)word delimited by spaces.
+       The strings are sensitive to case.
+     Thus, /t /f=":em:0:1:" initiates a search for any chantword that contains the letters
+     em (together) and the pitches 0 and 1 (in any order). The command /t /f=":e:m:.0:1:"
+     would initiate a search for any chantword that contains the letters e and m (in any
+     order) and the pitch 0 immediately after a syllable separator and the pitch 1 (in any
+     order).
+  
+  When the documented parameter /f="&" is used, only references are written to the output.
+  The next parameter instructs the program to write the data even in this case.
+  /wd   when used with /f="&" this parameter causes the data as well as the references to
+          be written to the output.
+  
+  The documented parameter /xk= with a value limits the search to the season (Kalendar
+  occasion) specified. 
+  /xk   without a value, this parameter causes the season (Kalendar information) to be added
+          to the summaries, but does not limit the search to a particular season.
+  
+  The last new parameter works only if certain codes are present in the data. These codes are
+  placed between (z and a closing parenthesis ). The codes are intended to represent the
+  different repertories and textual styles that occur in the data: the rhymed repertory (z @r);
+  the Dominican repertory (z OP); a prose item identified by (z @p). If the user knows which
+  codes are present in the data, the search may be limited to particular repertories by placing
+  the code as a value for this parameter.
+  /xr=  with a value, this parameter limits the search to the repertory specified, which is
+          cued in the data between (z and ): e.g. (z @r OP).
+  Even if this parameter is not used, the program notes each of these codes and at the end of
+  the output summarizes the matches according to the different repertories found.
+  
+  
+  

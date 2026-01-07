@@ -1,0 +1,21 @@
+ rd.Screen 1 nm.	Users can construct their own Help screens, as follows:
+	Each Help screen consists of 20 lines, maximum 78 characters per line,
+each line ending with a carriage return and line feed. Anything can be placed
+within the screen, but obviously good screen design makes for ease of use.
+		 rd.New Help screens must be added at the end of this one.
+
+	Blank lines are useful. Lines beginning with << are ignored altogether.
+			Tabs are represented by ú and occupy only a single character.
+	Colours: the "words" rd. bl. gn. yl. nm. (each preceded by a space) begin
+red, blue, green, yellow, and normal within each line independently:  allow 10
+characters for each of these 4-character words. The line beginning "	Any"
+has 78 characters (tab has one; red and normal each have ten).
+
+	Any character that rd. begins nm. a line can be found by pressing
+it from within a Help screen.
+Thus, pressing T will bring this line (and other similar lines in subsequent
+screens) to the top of the screen.
+
+The ability to bring a character to the top of the screen makes it convenient
+to devote a single screen to a specific character for which help is required.
+<< comment line ignored: add extra screens below here.

@@ -1,0 +1,99 @@
+  12 March 1996
+  
+  ----------------------------------------------------------------------
+  ANDREW HUGHES
+  Late Medieval Liturgical Offices
+  Resources for Electronic Research - Sources and Chants
+  ----------------------------------------------------------------------
+  
+  This README file contains information on the following:
+  
+   1 Installation
+   2 The utility programs
+   3 KLIC
+   4 Electronic caveats
+  
+  ----------------------------------------------------------------------
+  
+  1  INSTALLATION
+  Complete installation (all the data, programs, etc.) requires approximately
+  8 MB of free disk space. The installation routine quits when the available
+  space is less than 10k. For instructions on installing the electronic files,
+  see page 201-2 of the book, where sizes of individual parts of the data are given.
+  For the sizes of (uncompressed) individual files see CHECK.LST on this disk.
+  
+  If you are installing from drive b: add the letter b after a space at the
+  end of the command line, thus:
+  
+      b:instlmo2 b
+  
+  ----------------------------------------------------------------------
+  
+  2  The UTILITY PROGRAMS
+  Discovering the limitations, quirks, and full potential of the programs
+  supplied with these data will require patience and curiosity and experi-
+  mentation. While preparing the texts of these volumes, editing the data,
+  and writing the programs, there has been little time for systematic
+  exploration and use of the programs, other than in purely formal testing.
+   Nevertheless, in the weeks between sending the text to the press
+  and while finalizing the electronic material, I have been able to devote
+  a week or two to the kinds of questions and uses for which the programs
+  might be useful. As a result, with respect to both data and utility pro-
+  grams I have implemented a few improvements and new features that are not
+  documented in the printed text. None of these will make the data or
+  programs more difficult to use, and most will be completely invisible
+  to the reader who does not study the addition information in the READ-ME
+  files in this directory on disk 1.
+   Two files are provided. Each is in ASCII format and in the format
+  used by WordPerfect 5.1.
+   CH-READ (.ME or .WP5) first lists the nearly 70 rhymed offices
+  for which encoded chants are provided (see Handlist A). It then describes
+  refinements to chant encoding and some alternatives for indexing with
+  WordCruncher. Finally, it presents a very concise summary of the process
+  of chant encoding that could be printed on an index card for easy reference.
+   CHNTSRCH (.DOC or .WP5) describes some enhancements to the utility
+  program provided for use with the chant data: included in the new features
+  is the ability to search the data for purely textual as well as chant
+  material (see also the next section here, referring to KLIC).   
+  
+  ----------------------------------------------------------------------
+  
+  3  KLIC
+  KLIC is a concordance program developed for LMLO: Texts. Since the chant
+  files included with LMLO: Sources and Chants are text files with additional
+  lines of data for the chant encoding, KLIC is potentially of use with the
+  chant data.
+  
+  Even though the program is not described or mentioned in LMLO: Sources and
+  Chants, I have included it in the \PROGRAMS subdirectory. A few
+  enhancements have been added to the version provided with LMLO: Texts. For a
+  full description of its power, readers must consult LMLO: Texts.
+  
+  Briefly, it will provide a context for the string specified on the command
+  line, finding EXACT matches. Thus to find this exact sequence of characters
+  in a chantword - .23$.43=1, - the command would be
+   Snorun KLIC /y=filename(s) /f=".23$.43=1," /nq
+  
+  One advantage over ChntSrch is KLIC's ability to search for strings
+  with wildcards.
+  
+  ----------------------------------------------------------------------
+  
+  4  ELECTRONIC CAVEATS
+  Users even slightly familar with computers will recognize that software
+  is seldom definitive. The number of possible ways of using even relatively
+  simple programs is inordinately large (even discounting
+  unforeseeable, imprudent, or reckless combinations and permutations) and
+  quite impossible to take into consideration or to test rigorously.
+  
+  The software provided free with this book is tailormade for the repertory.
+  Like all software, it will certainly have bugs. I am of course anxious to
+  learn of defects and to hear of possible improvements. First, however,
+  users should make sure they have carefully read all the instructions and
+  that they fully understand the structure of the data. I cannot spend
+  unreasonable amounts of time attempting to diagnose bugs. If users cannot
+  achieve a particular end easily with the software provided, they may find
+  it useful to explore commercial programs to carry out the task required.
+  
+  ----------------------------------------------------------------------
+  

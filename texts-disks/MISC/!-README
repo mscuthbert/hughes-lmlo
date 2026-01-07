@@ -1,0 +1,13 @@
+This directory contains 3 files, including this one.
+
+The file THMS-LMO.TST is the one searched by the command
+	Concord test word
+as given in the Preface.
+
+The batch file called by typing
+	Concord
+translates "test" into "THMS-LMO.TST" and at the same time
+adds the necessary characters to all the parameters, replacing
+the word "word" with /f="word" and so on. It also adds other parameters that
+make the program run properly from the batch file and eliminates
+the need for the device driver ANSI.SYS.
