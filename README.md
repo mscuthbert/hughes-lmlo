@@ -1,4 +1,4 @@
-# Hughes, Late Medieval Latin Offices
+# Hughes, Late Medieval Liturgical Offices
 
 This repository contains the contents of the disks from two publications:
 
